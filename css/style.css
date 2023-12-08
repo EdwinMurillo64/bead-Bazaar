@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;500&display=swap');
+
+:root{
+	--f7-theme-color:#A084BD;
+	--f7-navbar-bg-color:#A084BD; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#370150;
+	--f7-bars-bg-color:#A084BD;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #7D00B7;
+	--f7-tabbar-link-active-color: #370150; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	
+	
+	
+	--grimmace:#7D00B7;
+	--Ayesha:#F72DA2;
+	--morado-oscuro: #370150;
+	--regina: #FE6BD6;
+}
+
+body {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+
+.navbar .tittle{
+	text-align: center;	
+}
+
+.navbar .material-icons{
+	color:#7D00B7;
+}
+.page-content{
+	background-image:url("../img/backgroundinicio.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+ 
+
+.page-content1{
+	background-color:#370150!important;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 300px;
+}
+
+.page-content2{
+	background-image:url("../img/backgroundcarrito.jpeg")!important;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 300px;
+}
+
+form .searchbar-input-wrap{
+	border: 4px solid #7D00B7;
+	border-radius: 10px;
+	text-align: center;
+	color:#7D00B7;
+	justify-content: center;
+	width: 100px;
+	
+}
+#search{
+	padding: 30px;
+	border-radius: 10px;
+	
+}
+
+#search .searchbar-icon{
+	color:#7D00B7;
+}
+
+#novedades .card{
+	background-image: url("../img/novedades gradient.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	border-radius: 20px;
+	 margin-left: 15px;
+	margin-right: 15px;
+	
+}
+	
+.categorias .block-title{
+	color:#F72DA2;
+	font-size:30px;
+	padding-bottom:40px;
+	padding-top:5px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+}
+.link-categorias{
+	color: #fff !important;
+}
+
+.card-product-1{
+	background-image: url("../img/pulseras gradient.jpg");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #A084BD;
+    border-radius: 10px;
+	color:#fff !important;
+	text-align: center;
+	padding-top:30px; 
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.link-categorias{
+	color: #fff !important;
+}
+
+.card-product-2{
+	background-image: url("../img/aritos gradient.jpg");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #A084BD;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	padding-top:30px; 
+	overflow: hidden;
+}
+.card-product-3{
+	background-image:url("../img/anillos gradient.jpg");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #A084BD;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	padding-top:30px; 
+	overflow: hidden;
+	
+}
+
+.card-product-4{
+	background-image:url("../img/collares gradient.jpg");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #A084BD;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	padding-top:30px; 
+	margin-right: 5px;
+	overflow: hidden;
+	
+
+}
+
+.trending .block-title{
+	color:#F72DA2;
+	font-size:30px;
+	margin-bottom:15px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 5px;
+	
+}
+.card-product-1t{
+	background-image:url("../img/collar y2k.jfif");
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #7D00B7;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	margin-left: 5px;
+	 }
+
+
+.card-product-2t{
+	background-image:url("../img/aritos estrella.jfif");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #7D00B7;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	 }
+
+
+.card-product-3t{
+	background-image: url("../img/brazalete magnetico.jfif");
+	background-size: cover;
+	background-position: center;
+	border: 10px solid #7D00B7;
+    border-radius: 10px;
+	color:#fff;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	margin-right: 5px;
+	 }
+
+.card-product-1t p{
+	opacity: 0%;
+	font-size: 1px;
+}
+.card-product-2t p{
+	opacity: 0%;
+	font-size: 1px;
+}
+.card-product-3t p{
+	opacity: 0%;
+	font-size: 1px;
+}
+
+#nav-panel .list ul{
+	background-color: transparent;
+	font-size: 14px;
+	color: #fff;
+}
+#nav-panel .list span{
+	font-size: 22px;
+}
+#nav-panel{
+	background-image: url("../img/background perfil.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+#logo {
+	text-align:center;
+	padding:30px;
+}
+
+/*side panel*/
+
+.side-panel{
+	background-color: var(--morado-oscuro);
+	margin: 30px 0px 30px 20px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.side-panel span.material-icons{
+	color: var(--regina);
+	font-size: 50px !important;
+}
+
+.side-panel div.item-title{
+	margin-top: 15px;
+}
+
+/*pag de categorias*/
+
+.titulo-categorias{
+	color: var(--regina);
+	font-size: 30px;
+	background-color: var(--grimmace);
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+
+.card-producto{
+	background-color: var(--grimmace);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.card-producto .titulo-producto{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+}
+
+.card-producto .precio{
+	color: var(--Ayesha);
+	font-size: 16px;
+	margin: 0px;
+}
+
+.card-producto .material-icons{
+	color: var(--regina)
+}
+
+/*Pagina de brazalete*/
+.card-brazalete{
+	width: 200px;
+	background-color: var(--grimmace);
+	padding: 10px;
+	border-radius: 10px;
+	padding-right: -50px;
+	color: var(--regina);
+	margin-left: 80px;
+	margin-top: 50px;
+	
+}
+.col-heart{
+	text-align: right;
+	padding-top: 10px;
+}
+.brazalete h3{
+	color: var(--grimmace);
+	font-size: 20px;
+	margin-left: 60px;
+	text-justify: center;
+}
+
+.brazalete p{
+	font-family: 'Inter', sans-serif;
+	margin-left: 60px;
+	font-weight: 800;
+}
+
+.brazalete h2{
+	color:var(--Ayesha);
+	margin-left: 160px;
+}
+
+.btn-secondary{
+	border-radius: 10px;
+	height:40px;
+	width: 250px;
+	background-color: var(--grimmace);
+	color: #FFFFFF;
+	font-family:  'Inter', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	margin-left: 60px;
+}
+
+/*pagina de collar*/
+
+
+
+/*carrito de compras*/
+
+.titulo-carrito-compra{
+	font-size: 20px;
+	color: var(--grimmace);
+	text-align: center;
+}
+
+.producto-carrito{
+	background-color: var(--morado-oscuro);
+	padding: 5px;
+}
+
+.producto-carrito .card-image{
+	background-color: var(--grimmace);
+}
+
+.producto-carrito img{
+	padding: 10px 5px;
+}
+
+.producto-carrito h2{
+	color: #FFFFFF;
+	
+}
+.producto-carrito p{
+	color: var(--regina);
+	font-size: 20px;
+	text-align: center;
+}
+
+.producto-carrito .material-icons{
+	color: var(--regina);
+	font-size: 25px;
+	text-align: center;
+}
+.producto-carrito .unidades{
+	background-color: var(--grimmace);
+	padding: 10px;
+}
+
+h2.total{
+	text-align: center;
+	color: var(--grimmace);
+}
+
+.stepper-section{
+	align-content: center;
+}
+
+.stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  max-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.stepper-button-minus{
+	padding: 15px;
+	border-radius: 0px!important;
+	
+}
+.stepper-button-plus{
+	padding: 15px;
+	border-radius: 0px!important;
+}
+.stepper-input-wrap{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*popup*/
+#popup.page-content{
+	background-image: url("../img/backgroundgraciasporsucompra.jpeg");
+	background-size: cover;
+	background-position:center;
+	
+}
+#popicon{
+	color:#370150 !important;
+}
+ .pop{
+	text-align: center;
+	font-size: 50px;
+	margin-top:200px;
+	 padding: 50px;
+	font-family: 'Inter', sans-serif;
+	 color:#fff;
+}
+/*Sobre nosotros*/
+.sobre-background {
+	background-color: #370150!important;
+}
+
+.logo{
+	padding-left: 110px;
+	padding-top: 80px;
+}
+
+.sobre-text1{
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 16px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+.sobre-text2{
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 16px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+.sobre-text3{
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 16px;
+	text-align: center;
+	color:#FFFFFF;
+}
+/*favoritos*/
+
+.page-content3{
+	background-image: url("../img/backgroundfav.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 250px;
+}
+.titulo-favorito{
+	font-size: 20px;
+	color: var(--grimmace);
+	text-align: center;
+}
+
+.producto-favorito{
+	background-color: var(--morado-oscuro);
+	padding: 5px;
+}
+
+.producto-favorito .card-image{
+	background-color: var(--grimmace);
+}
+
+.producto-favorito img{
+	padding: 10px 5px;
+}
+
+.producto-favorito h2{
+	color: #FFFFFF;
+	
+}
+.producto-favorito p{
+	color: var(--regina);
+	font-size: 20px;
+	text-align: center;
+}
+
+.producto-favorito .material-icons{
+	color: var(--regina);
+	font-size: 25px;
+	text-align: center;
+}
+.producto-favorito .unidades{
+	background-color: var(--grimmace);
+	padding: 10px;
+}
+
+
